@@ -1,0 +1,76 @@
+/*estilo página inicial*/
+/*cabeçalho principal*/
+.cabecalho{
+    background-color: #0aaf05;
+    width: 100%;
+    height: 42px;
+}
+
+/*Menu no cabeçalho*/
+.menu{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    background-color: #0aaf05;
+}
+
+.menu ul ul li{
+    float: none;
+    background-color: #1fd119;
+}
+
+.menu ul li {
+    display: block;
+    padding: 10px ;
+}
+
+/*corpo da página*/
+.corpo{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(imagens/site.jpg);
+    background-size: 100%;
+    background-size: 100%;
+    height: 3078px;
+	/*width: 1290px;*/
+    background-repeat: no-repeat;
+}
+
+.tela{
+    width: 100%;
+    height: 500px;
+}
+.buscar{
+	position:absolute;
+	left:7%;
+	top:10%;
+	margin-left:-120px;
+	margin-top:-45px;
+	border: 1px solid black;
+}
+
+header{
+	width: 1150px;
+	height: 151px;
+	background-image: url("http://profelifas.com/colabora/imagens/page.jpg");
+}
